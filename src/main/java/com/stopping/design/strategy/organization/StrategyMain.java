@@ -1,4 +1,4 @@
-package com.stopping.design.strategy;
+package com.stopping.design.strategy.organization;
 
 public class StrategyMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.stopping.design.strategy;
+package com.stopping.design.strategy.organization;
 
 public class OrganizationRecursion<T> {
     private QuertStartegy<T> quertStartegy;
