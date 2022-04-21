@@ -1,9 +1,11 @@
 package com.stopping.design.decorator;
-
+/**
+ * 基础套餐
+ * */
 public class BaseBattercake extends Battercake{
     @Override
     public String getName() {
-        return "煎饼";
+        return "手抓饼";
     }
 
     @Override

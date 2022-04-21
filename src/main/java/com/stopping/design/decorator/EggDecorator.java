@@ -1,5 +1,9 @@
 package com.stopping.design.decorator;
 
+/**
+ * 鸡蛋装饰器
+ * @author stopping 
+ * */
 public class EggDecorator extends BattercakeDecotator{
 
     public EggDecorator(Battercake battercake) {
