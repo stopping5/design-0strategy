@@ -8,6 +8,7 @@ package com.stopping.design.strategy.operation;
 public class MutStrategy implements OperationStrategy{
     @Override
     public Integer execute(Integer a, Integer b) {
+        System.out.println("执行乘法策略");
         return a * b;
     }
 }

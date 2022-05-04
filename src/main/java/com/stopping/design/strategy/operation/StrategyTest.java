@@ -7,7 +7,11 @@ package com.stopping.design.strategy.operation;
  */
 public class StrategyTest {
     public static void main(String[] args) {
-        OperationContext operationContext = new OperationContext(new MutStrategy());
-        System.out.println(operationContext.execute(1,1));
+        //OperationContext operationContext = new OperationContext(new MutStrategy());
+
+        //OperationContextV1 operationContextV1 = new OperationContextV1();
+
+
+        System.out.println(OperationContextEnum.ADD.execute(2,3));
     }
 }

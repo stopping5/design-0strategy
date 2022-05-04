@@ -9,6 +9,7 @@ package com.stopping.design.strategy.operation;
 public class AddStrategy implements OperationStrategy{
     @Override
     public Integer execute(Integer a, Integer b) {
+        System.out.println("执行加法策略");
         return a+b;
     }
 }
