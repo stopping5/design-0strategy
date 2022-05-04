@@ -7,7 +7,7 @@ package com.stopping.design.template;
  * @author: stopping
  */
 public abstract class WorkProcess {
-    public void work(){
+    public final void work(){
         this.up();
 
         this.traffic();
