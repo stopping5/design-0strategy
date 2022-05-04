@@ -7,6 +7,7 @@ package com.stopping.design.template;
  */
 public class TemplateMain {
     public static void main(String[] args) {
-        new UpManWorkProcess(true).work();
+        new BoosProcess(true).work();
+        new CommonWorker(false).work();
     }
 }
