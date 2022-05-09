@@ -1,4 +1,4 @@
-package com.stopping.design.responsibility;
+package com.stopping.design.responsibility.userRegister;
 
 /**
  * 用户注册信息

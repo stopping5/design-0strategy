@@ -1,4 +1,4 @@
-package com.stopping.design.responsibility;
+package com.stopping.design.responsibility.userRegister;
 
 public class UserRegisterMain {
     public static void main(String[] args) {
